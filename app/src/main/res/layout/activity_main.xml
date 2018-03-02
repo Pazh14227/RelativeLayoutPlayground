@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.malai_pt1882.realtivelayoutplayground.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="TopLeft text"
+            android:textSize="48dp"
+            android:id="@+id/top_left_text"
+            android:background="#000"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_left_text"
+            android:layout_alignParentRight="true"
+            android:text="Lefttext"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="RelativeRight"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:background="#DAAA"
+            android:paddingRight="20dp"
+            android:paddingLeft = "20dp"/>
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
